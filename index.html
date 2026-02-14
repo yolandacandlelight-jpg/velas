@@ -8,7 +8,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Candlelight.moment | Velas</title>
-    <style>
+    <style>.precio { 
+    color: #d63384; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    margin-top: 10px; 
+}
         body { font-family: sans-serif; background-color: #fdfaf6; text-align: center; color: #333; }
         .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
         .card { background: white; border-radius: 10px; padding: 15px; width: 280px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
@@ -17,26 +22,23 @@
     </style>
 </head>
 <body>
-    <h1>Candlelight.moment</h1>
-    <div class="grid">
-        <div class="card">
-         <img src="vela1.jpg">
-            <h3>Love Spell</h3>
-            <p>Cerezas Explosivas</p>
-        </div>
-        <div class="card">
-            <img src="foto2.jpg">
-            <h3>Chocolate Kiss</h3>
-            <p>Chocolate y Naranja</p>
-        </div>
-        <div class="card">
-            <img src="foto3.png">
-            <h3>Ritual</h3>
-            <p>Protección y armonía</p>
-        </div>
-    </div>
-</body>
-</html>
+    <div class="card">
+    <img src="vela1.jpg">
+    <h3>Love Spell</h3>
+    <p>Cerezas Explosivas</p>
+    <p class="precio">15,50€</p>
+</div>
 
+<div class="card">
+    <img src="foto2.jpg">
+    <h3>Chocolate Kiss</h3>
+    <p>Aroma Dulce</p>
+    <p class="precio">15,50€</p>
+</div>
 
-
+<div class="card">
+    <img src="foto3.png">
+    <h3>Vela en Lata</h3>
+    <p>Edición Especial</p>
+    <p class="precio">9,70€</p>
+</div>
