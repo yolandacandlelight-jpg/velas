@@ -1,25 +1,41 @@
-<h2 style="text-align: center; color: var(--verde-oscuro);">Nuestra Colección</h2>
-    <div class="productos-grid">
-        
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candlelight.moment | Velas Artesanales</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #fdfaf6; color: #333; margin: 0; display: flex; flex-direction: column; align-items: center; }
+        h1 { color: #4a5d4d; margin-top: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 40px; max-width: 1000px; }
+        .card { background: white; border-radius: 15px; padding: 20px; text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        img { width: 100%; height: 250px; object-fit: cover; border-radius: 10px; }
+        .aroma { display: inline-block; background: #e8f0e9; color: #4a5d4d; padding: 5px 10px; border-radius: 20px; font-size: 0.8em; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>Candlelight.moment</h1>
+    <div class="grid">
         <div class="card">
-            <img src="foto1.jpg" onerror="this.src='foto1.png'" alt="Vela Love Spell">
+            <img src="foto1.jpg" alt="Love Spell">
             <h3>Love Spell</h3>
-            <span class="badge">Aroma: Cerezas Explosivas</span>
-            <p>Atracción y dulzura en cada llama. Diseñada para atraer el amor.</p>
+            <span class="aroma">Cerezas Explosivas</span>
+            <p>Atracción y dulzura en cada llama.</p>
         </div>
-
         <div class="card">
-            <img src="foto2.jpg" onerror="this.src='foto2.png'" alt="Vela Chocolate Kiss">
+            <img src="foto2.jpg" alt="Chocolate Kiss">
             <h3>Chocolate Kiss</h3>
-            <span class="badge">Aroma: Chocolate y Naranja</span>
-            <p>Un capricho dulce para tus sentidos. Atmósfera acogedora.</p>
+            <span class="aroma">Chocolate y Naranja</span>
+            <p>Un capricho dulce para tus sentidos.</p>
         </div>
-
         <div class="card">
-            <img src="foto3.jpg" onerror="this.src='foto3.png'" alt="Vela Ritual">
-            <h3>Ritual Aleja Negatividad</h3>
-            <span class="badge">Aroma: Naranja, Canela y Romero</span>
-            <p>Vela ritualizada para la protección y limpieza energética.</p>
+            <img src="foto3.png" alt="Ritual">
+            <h3>Ritual</h3>
+            <span class="aroma">Limpieza Energética</span>
+            <p>Protección y armonía para tu hogar.</p>
         </div>
-
     </div>
+</body>
+</html>
